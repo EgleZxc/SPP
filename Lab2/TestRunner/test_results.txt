@@ -1,0 +1,32 @@
+HasAccounts_WhenNoAccounts_ReturnsFalse(): ОК 
+UpdatePassword_EmptyNewPassword_ThrowsArgumentException(): ОК 
+UpdatePassword_ExistingId_ChangesPasswordAndReturnsTrue(): ОК 
+FindByService_PartialMatch_ReturnsAccounts(): ОК 
+AddAccount_EmptyUserName_ThrowsArgumentException(): ОК 
+TimeoutTest(): ПРОВАЛЕН Тест превысил время ожидания (100 мс)
+GetAccountsCountAsync_ReturnsCorrectCount(): ОК 
+ModifyContext_AddAccount(): ОК 
+SharedContext_InitialCount_IsCorrect(): ОК 
+HasAccounts_WhenAccountsExist_ReturnsTrue(): ОК 
+IsStrongPassword_NoDigit_ReturnsFalse(): ОК 
+IsStrongPassword_ValidPassword_ReturnsTrue(): ОК 
+DeleteAccount_NonExistingId_ReturnsFalse(): ОК 
+DeleteAccount_ExistingId_RemovesAccountAndReturnsTrue(): ОК 
+UpdatePassword_NonExistingId_ReturnsFalse(): ОК 
+GetAccount_NonExistingId_ReturnsNull(): ОК 
+AddAccount_EmptyPassword_ThrowsArgumentException(): ОК 
+ParameterizedAddTest(Twitter, charlie, tweet789): ОК 
+ParameterizedAddTest(Facebook, bob, secret456): ОК 
+IsStrongPassword_TooShort_ReturnsFalse(): ОК 
+GetAllAccounts_ReturnsAllAddedAccounts(): ОК 
+FindByService_EmptyString_ReturnsEmptyList(): ОК 
+GetAccount_ExistingId_ReturnsCorrectAccount(): ОК 
+AddAccount_EmptyServiceName_ThrowsArgumentException(): ОК 
+CheckModifiedContext(): ОК 
+SharedContext_Manager_ContainsPreloadedAccounts(): ОК 
+AddAccount_ValidData_ReturnsAccountWithCorrectProperties(): ОК 
+ParameterizedAddTest(Google, alice@gmail.com, pass123): ОК 
+IsStrongPassword_NoUpperCase_ReturnsFalse(): ОК 
+FindByService_ExistingService_ReturnsMatchingAccounts(): ОК 
+AddAccount_DuplicateServiceAndUser_ThrowsInvalidOperationException(): ОК 
+SkippedTest: ПРОПУЩЕН Пропущен: Тест временно отключён
