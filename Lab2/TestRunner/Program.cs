@@ -12,7 +12,7 @@ namespace TestRunnerApp
     {
         static async Task Main(string[] args)
         {
-            Console.WriteLine("=== Собственный запускатор тестов (параллельная версия) ===\n");
+            Console.WriteLine("=== Запускатор тестов ===\n");
 
             string testsPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "MyTests.dll");
             Assembly testsAssembly = Assembly.LoadFrom(testsPath);
