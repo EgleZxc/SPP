@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ApplicationUnderTest/ApplicationUnderTest.csproj" />
+  <Project Path="DynamicThreadPool/DynamicThreadPool.csproj" />
+  <Project Path="LoadSimulator/LoadSimulator.csproj" />
+  <Project Path="MyTests/MyTests.csproj" />
+  <Project Path="TestEngine/TestEngine.csproj" />
+</Solution>
